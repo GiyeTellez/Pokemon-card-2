@@ -1,0 +1,68 @@
+body{
+  text-align: center;
+}
+.pokemon-plant {
+    background-color: #d3cfcf;     
+    border-radius: 16px;            
+    box-shadow: 0 4px 10px rgba(10, 10, 10, 10.12); 
+    padding: 15px;                
+    justify-content: center;
+    width: 400px;
+  }
+.pokemon-fire {
+  background-color: #d3cfcf;   
+  border-radius: 12px;         
+  box-shadow: 0 4px 10px rgba(10, 10, 10, 10.12); 
+  padding: 30px;                
+  justify-content: center;
+  width: 400px;
+}
+  .pokemon-image {
+    max-width: 100%;        
+    border-radius: 12px;   
+  }
+  .pokemon-info-plant{
+    background-color: #d4edda; 
+    border-radius: 12px;      
+    padding: 40px;             
+    width: 100%;
+    box-sizing: border-box;
+    text-align: left;
+}
+  .pokemon-info-fire{
+    background-color: rgb(252, 149, 80);  
+    border-radius: 15px;      
+    padding: 40px;             
+    width: 100%;
+    box-sizing: border-box;
+    text-align: left;
+}
+  .pokemon-name {
+    font-family: 'Comic Sans MS', cursive, sans-serif; 
+    color: #2c3e50;         
+  }
+  .pokemon-type-plant{
+    color: green;              
+    font-weight: bold;
+  }
+  .pokemon-type-poison{
+    color: purple;             
+    font-weight: bold; 
+  }
+  .pokemon-type-fire{
+  color: rgb(255, 0, 0);            
+  font-weight: bold; 
+  }
+  .pokemon-type-flying{
+  color: rgb(162, 223, 238);           
+  font-weight: bold; 
+}
+  .pokemon-description{
+    font-size: 0.9rem;        
+    color: rgb(0, 0, 0);        
+  }
+
+  .pokemon-card {
+    display: inline-block;
+    margin: 1em;;
+  }
